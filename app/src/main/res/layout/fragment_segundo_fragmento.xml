@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#36b64b"
+    tools:context="mx.ipn.cic.geo.fragmentos_estaticos.SegundoFragmento">
+
+    <TextView
+        android:id="@+id/textMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:text="TEXT VIEW PARTE DE UN FRAGMENT"/>
+
+    <Button
+        android:id="@+id/buttonSegundaOpcion"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:text="SEGUNDA OPCIÓN" />
+
+</LinearLayout>

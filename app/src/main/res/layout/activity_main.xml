@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="mx.ipn.cic.geo.fragmentos_estaticos.MainActivity">
+
+    <fragment
+    android:id="@+id/fragmentPrimerFragmento"
+    android:name="mx.ipn.cic.geo.fragmentos_estaticos.PrimerFragmento"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/fragmentSegundoFragmento"
+        android:name="mx.ipn.cic.geo.fragmentos_estaticos.SegundoFragmento"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
